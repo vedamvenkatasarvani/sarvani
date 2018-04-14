@@ -1,0 +1,46 @@
+.mainDiv{
+   background: pink;
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+}
+.leftDiv{
+    background: red;
+    width: 25%;
+    position: fixed;
+    text-align: center;
+}
+.rightDiv{
+   background: orange;
+   width: 70%;
+   margin-left: 30%;
+}
+.pic{
+   width: 90%;
+   border-radius: 5px;
+}
+.left1{
+   margin-top: 10%;
+   border-radius: 20px;
+}
+.left2{
+  background: red;
+  border-radius: 25px;
+  display: flex;
+}
+@media screen and (max-width:768px) {
+  .mainDiv{
+    background: green;
+    display: block;
+    flex-wrap: wrap;
+    height: auto;
+  }
+  .leftDiv{
+    position: relative;
+    width: 100%;
+  }
+  .rightDiv{
+    margin-left: 0px;
+    width: 100%;
+  }
+}
